@@ -70,7 +70,10 @@ async function pageLoaded() {
         // console.log(passenger3DropoffAddressLine2)
         }}
 
-    
+        let renderProduct = function(rides) {
+          return `
+          <div> ${ride.levelOfService} </div>`
+        }
 
 
  
