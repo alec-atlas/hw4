@@ -23,7 +23,7 @@ async function pageLoaded() {
               } 
             } 
 
-            if (ride.length = 1){
+            if (ride.length == 1){
             let outputElement = document.querySelector('.rides')
             outputElement.insertAdjacentHTML('beforeend',`<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
                   <i class="fas fa-car-side"></i>
@@ -56,7 +56,7 @@ async function pageLoaded() {
                   </div>
                 </div>`) }
 
-                else if (ride.length = 2) {
+                else if (ride.length == 2) {
                   let outputElement = document.querySelector('.rides')
                   outputElement.insertAdjacentHTML('beforeend',`<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
                   <i class="fas fa-car-side"></i>
@@ -115,7 +115,7 @@ async function pageLoaded() {
                 </div>
               </div>`) }
 
-              else if (ride.length = 3) {
+              else if (ride.length == 3) {
                 let outputElement = document.querySelector('.rides')
                 outputElement.insertAdjacentHTML('beforeend',`<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
                 <i class="fas fa-car-side"></i>
